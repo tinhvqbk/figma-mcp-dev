@@ -17,8 +17,8 @@ Two pieces work together: a small MCP server (`figma-mcp-dev`, one binary) and t
    It downloads the binary for your Mac, checks its SHA-256, installs it to `~/.local/bin/figma-mcp-dev`, registers
    it with Claude Code, and prints a **pairing token**.
 
-2. **Install the Chrome extension** "MCP Bridge for Figma" (Chrome Web Store link coming soon), click its toolbar
-   icon, paste the token, and click **Save**.
+2. **Install the Chrome extension** [MCP Bridge for Figma](https://chromewebstore.google.com/detail/mcgjkaemfnihcknhmcldlpaidpiokhmf) from the Chrome Web Store, click its
+   toolbar icon, paste the token, and click **Save**.
 
 3. Start a **new** Claude Code session, open a design on figma.com in Chrome, and ask Claude:
    "call figma_web_status".
